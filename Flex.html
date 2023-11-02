@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<style>
+			#one{
+				order:2;
+				flex-grow:2;
+			}
+			#four{
+				order:1;
+				flex-grow:3;
+			}
+			#two{
+				order:4;
+				align-self:flex-start;            /*flex-end, flex-start, center, stretch*/
+			}
+			*{
+				margin:0px;
+			}
+			div{
+				color:rgb(0,0,0,0.5);
+				background-color: blue;
+				display: flex;            /*block, inline-block, flex, inline-flex*/
+				padding:10px;
+				flex-direction:row;             /*row, column, row-reverse, column-reverse*/
+				flex-wrap:wrap;
+				justify-content:flex-start;          /*flex-start, flex-end, center, space-between, space-around, space-evenly*/
+				align-items:center;               /*flex-end, flex-start, center, stretch*/
+				height:100px;
+			}
+			p{
+				padding: 5px;
+				background-color: rgb(240, 255, 120, 1);
+				margin:5px;
+				border-radius:10px;
+			}
+			p:hover{
+				background-color:rgb(240, 255, 120, 0.8);
+				color:rgb(0,0,0,1);
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div>     //parent
+			<p id="one">Home</p>         //child
+			<p id="two">About Us</p>     //child
+			<p id="three">Blogs</p>      //child
+			<p id="four">Contact Us</p>  //child
+			<p id="five">Careers</p>     //child
+			<p id="six">Reviews</p>     //child
+			<p id="seven">Feedback</p>    //child
+		</div>
+	</body>
+</html>
