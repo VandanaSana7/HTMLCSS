@@ -1,0 +1,153 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<form action="Success.html" target="blank">
+			<fieldset>
+				<legend align="center"><h1><i>Application Form</i></h1></legend>
+			<table style="border-collapse:collapse; background-color:gray" align="center" height="600px" width="600px">
+				<!--<tr>
+					<th colspan="2">Application Form</th>
+				</tr>-->
+			
+				<tr>
+					<td><label for="fname">FirstName</label></td>
+					<td><input type="text" name="fname"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="lname">LastName</label></td>
+					<td><input type="text" name="lname"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="mail">EmailId</label></td>
+					<td><input type="email" name="mail"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="pwd">Password</label></td>
+					<td><input type="password" name="pwd"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="cpwd">Confirm Password</label></td>
+					<td><input type="password" name="cpwd"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="mobile">Mobile Number</label></td>
+					<td>
+						<select>
+							<option value="+91">+91</option>
+							<option value="+81">+81</option>
+							<option value="+92">+92</option>
+							<option value="+61">+61</option>
+							<option value="+89" selected>+89</option>
+							<option value="+95">+95</option>
+						</select>
+						<input type="tel" name="mobile" pattern="[0-9]{10}" size="13">
+					</td>
+				</tr>
+				
+				<tr>
+				    <td><label for="clg">Choose your college</td>
+					<td>
+						<input list="ClgName">
+						<datalist id="ClgName">
+							<option value="GVPCEW">
+							<option value="GVP">
+							<option value="GVPRushikonda">
+							<option value="GVPMedical">
+						</datalist>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Gender</td>
+					<td>
+						<input type="radio" name="gender">
+						<label for="gender">Male</label>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="radio" name="gender">
+						<label for="gender">Female</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Skills</td>
+					<td>
+						<input type="checkbox" name="skills">
+						<label for="skills">Java</label>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="checkbox" name="skills">
+						<label for="skills">SQL</label>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="checkbox" name="skills">
+						<label for="skills">HTML CSS</label>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="checkbox" name="skills">
+						<label for="skills">Springboot</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><label for="exp">Experience(2-10)</label></td>
+					<td><input type="number" name="exp" min="2" max="10"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="dob">Date of Birth</label></td>
+					<td><input type="date" name="dob"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="resume">Upload resume</label></td>
+					<td><input type="file" name="resume"></td>
+				</tr>
+				
+				<tr>
+					<td><label for="add">Address</label></td>
+					<td><textarea placeholder="comments" rows="5" cols="10" style="resize:none"></textarea></td>
+				</tr>
+				
+				
+				<!--<tr>
+					<progress max="100" value="90"></progress>
+				</tr>-->
+				
+				<tr>
+					<td colspan="2">
+						<input type="checkbox" name="agree">
+						<label for="agree">The data provided is true to my knowledge.</label>
+					</td>
+				</tr>
+				
+				<tr>
+					<th colspan="2">
+						<input type="submit">
+					</th>
+				</tr>
+				
+			</table>
+			<progress max="100" value="60"></progress>
+			</fieldset>
+		</form>
+	</body>
+</html>
